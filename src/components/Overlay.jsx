@@ -5,16 +5,20 @@ import { useState } from "react";
 const Section = (props) => {
   return (
     <section
+      //#region for study later //gsap-animation     props.children
       className={`h-screen flex flex-col justify-center p-10 ${
         props.right ? "items-end" : "items-start"
       }`}
       style={{
         opacity: props.opacity,
       }}
+
+    //#endregion
     >
       <div className="w-1/2 flex items-center justify-center">
         <div className="max-w-sm w-full">
           <div className="bg-white  rounded-lg px-8 py-12">
+            
             {props.children}
           </div>
         </div>

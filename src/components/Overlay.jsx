@@ -12,7 +12,7 @@ const Section = (props) => {
       style={{
         opacity: props.opacity,
       }}
-
+ 
     //#endregion
     >
       <div className="w-1/2 flex items-center justify-center">
